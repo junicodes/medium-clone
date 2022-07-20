@@ -63,3 +63,77 @@ p {
     font-size: 10px;
 }
 
+.big-block {
+    width: 100%;
+    height: 500px;
+    background-color: yellow;
+    display: flex;
+}
+
+.first-box {
+    height: 500px;
+    background: green;
+    width: 50%;
+}
+
+.middle-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.middle-div {
+    width: 50%;
+    height: 250px;
+    background-color: brown;
+}
+
+
+.sec-box {
+    height: 500px;
+    background: blue;
+    width: 50%;
+}
+
+.middle-div2 {
+    width: 50%;
+    height: 250px;
+    background-color: white;
+}
+
+.bottom-div {
+    width: 100%;
+    height: 100px;
+    background: red;
+    display: flex;
+}
+
+.bottom-div2 {
+    width: 100%;
+    height: 100px;
+    background: purple;
+    display: flex;
+}
+.bottom-first {
+    background: dodgerblue;
+    height: 100px;
+    width: 20%;
+}
+
+.bottom-second {
+    background: gray;
+    height: 100px;
+    width: 80%;
+}
+
+.bottom2-first {
+    background: rgb(30, 255, 214);
+    height: 100px;
+    width: 80%;
+}
+
+.bottom2-second {
+    background: rgb(53, 10, 10);
+    height: 100px;
+    width: 20%;
+}
