@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header {
@@ -63,77 +64,70 @@ p {
     font-size: 10px;
 }
 
-.big-block {
-    width: 100%;
-    height: 500px;
+/* Begin style */
+.layoutWhole { 
+    border: 1px solid black;
+    height: 1000px;
+    width: 100vw;
+    background: grey;
+}
+
+.header {
+    width: 100vw;
+    height: 60px;
+    background-color: aliceblue;
+}
+
+.innerHeader {
+    background-color: green;
+    width: 80%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navBox {
+    border: 1px solid white;
+    width: 95%;
     background-color: yellow;
     display: flex;
-}
-
-.first-box {
-    height: 500px;
-    background: green;
-    width: 50%;
-}
-
-.middle-layout {
-    display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 400px;
-}
-.middle-div {
-    width: 50%;
-    height: 250px;
-    background-color: brown;
 }
 
-
-.sec-box {
-    height: 500px;
-    background: blue;
-    width: 50%;
-}
-
-.middle-div2 {
-    width: 50%;
-    height: 250px;
-    background-color: white;
-}
-
-.bottom-div {
-    width: 100%;
-    height: 100px;
-    background: red;
+.logos {
+    border: 1px solid black;
+    width: 25%;
     display: flex;
+    justify-content: space-between;
 }
 
-.bottom-div2 {
-    width: 100%;
-    height: 100px;
-    background: purple;
+.linkNav {
+    border: 1px solid black;
+    width: 75%;
+}
+
+.linkNav nav ul {
     display: flex;
-}
-.bottom-first {
-    background: dodgerblue;
-    height: 100px;
-    width: 20%;
+    /* justify-content: space-evenly; */
+    overflow: hidden;
+    overflow-x: scroll;
 }
 
-.bottom-second {
-    background: gray;
-    height: 100px;
-    width: 80%;
+.linkNav nav ul li {
+    list-style: none;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
-.bottom2-first {
-    background: rgb(30, 255, 214);
-    height: 100px;
-    width: 80%;
+.search {
+    border: 1px solid white;
+    width: 5%;
+    background-color: blue;
 }
 
-.bottom2-second {
-    background: rgb(53, 10, 10);
-    height: 100px;
-    width: 20%;
-}
+/* @media screen and (max-width: 768px) {
+    .header {
+        height: 30px
+    }
+} */
